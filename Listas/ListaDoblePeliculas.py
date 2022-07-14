@@ -24,7 +24,7 @@ class ListaDoblePeliculas():
 		cadena = ''
 		while True:
 			if nodoAux.nombre is not None:
-				cadena += '({} {} {})'.format(nodoAux.nombre,nodoAux.edad, nodoAux.nacionalidad)
+				cadena += '({} {} {})'.format(nodoAux.nombre,nodoAux.papel, nodoAux.anio, nodoAux.duracion)
 				if nodoAux.siguiente is not None:
 					cadena += "->"
 					nodoAux = nodoAux.siguiente
